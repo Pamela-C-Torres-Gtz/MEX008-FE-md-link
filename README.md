@@ -16,7 +16,7 @@ Esta librería `md-links` es una herramienta creada en Node.js que lee y analiza
 
 El siguiente diagrama se creo utilizando la herramienta web de Lucidchart, de esta forma grafica se muestra la lógica de la librería, tratando de dar una idea estructurada de la misma.
 
-![diagramaFlujo]https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link/blob/master/img/dIagramaFlujo.png)
+[diagramaFlujo](https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link/blob/master/img/dIagramaFlujo.png)
 
 ## 3. Board del Backlog
 
