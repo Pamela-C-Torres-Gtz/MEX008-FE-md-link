@@ -1,0 +1,3 @@
+{
+    "presets":["@babel/preset-env"] /*con esto ya tenemos configurado todas nuestras caracteristicas de ES6*/
+}
