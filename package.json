@@ -1,34 +1,44 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "description": "pruebas unitarias con jest",
+  "description": "md-Links",
   "main": "index.js",
-  "directories": {
-    "test": "jest"
-  },
-  "scripts": {
-    "test": "jest" 
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link.git"
-  },
   "keywords": [
+    "node",
+    "npm",
     "jest",
     "pruebas",
     "unitarias"
   ],
   "author": "Pamlea Cinthya Torres Gutierrez <pamelatgtz@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "md-links": "lib/cli.js"
+  },
   "bugs": {
-    "url": "https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link/issues"
+    "url": "https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link.git"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "babel src -d "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link.git"
   },
   "homepage": "https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link#readme",
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
     "@babel/preset-env": "^7.5.5",
     "babel-jest": "^24.9.0",
-    "babel-polyfill": "^6.26.0",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "marked": "^0.7.0",
+    "node-fetch": "^2.6.0"
   }
 }
