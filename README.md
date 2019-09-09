@@ -125,7 +125,7 @@ El ejecutable podra ejecutarse de la siguiente manera a través de la terminal:
 
 Por ejemplo:
 
-```sh
+```js
 $ md-links ./some/example.md --validate
 $ md-links ./some/example.md --stats
 $ md-links ./some/example.md --v --s
@@ -138,7 +138,7 @@ Si pasamos la opción --validate, el módulo debe hacer una petición HTTP para 
 
 Por ejemplo:
 
-```sh
+```js
 $ md-links ./some/example.md --validate
 ./some/example.md http://algo.com/2/3/ ok 200 Link a algo
 ./some/example.md https://otra-cosa.net/algun-doc.html fail 404 algún doc
@@ -153,7 +153,7 @@ URL.
 
 Si pasamos la opción --stats, el output (salida) será un texto con estadísticas básicas sobre los links.
 
-```sh
+```js
 $ md-links ./some/example.md --stats
 Total: 3
 Unique: 3
@@ -163,7 +163,7 @@ Unique: 3
 
 También podemos combinar --stats y --validate para obtener estadísticas que necesiten de los resultados de la validación.
 
-```sh
+```js
 $ md-links ./some/example.md --stats --validate
 Total: 3
 Unique: 3

@@ -23,7 +23,7 @@ describe('convertPathFromRelativeToAbsolute', () => {
     expect(typeof convertPathFromRelativeToAbsolute).toBe('function');
   })
   test('Retorna una ruta absoluta a partir de una ruta relativa', () => {
-    expect(convertPathFromRelativeToAbsolute(relativePath)).toEqual(absolutePath);
+    expect(convertPathFromRelativeToAbsolute(relativePath)).toBe(absolutePath);
   });
 });
 

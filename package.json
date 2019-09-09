@@ -2,7 +2,7 @@
   "name": "md-links",
   "version": "1.0.0",
   "description": "md-Links",
-  "main": "lib/util/md-links.js",
+  "main": "lib/util/index.js",
   "keywords": [
     "node",
     "npm",
