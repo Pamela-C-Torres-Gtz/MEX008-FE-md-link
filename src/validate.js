@@ -1,10 +1,12 @@
+//Validación para comprobar si el link funciona o no
+
 const fetch = require('node-fetch');
 
 export const validateLink = (arr) => {
   const validatedLinksArray = arr.map(links => new Promise((resolve, reject) => {
     return fetch(links.href)
       .then(response => {
-        if (response.status >= 200 && response.status < 400) {
+        if (response.status >= 150 && response.status < 350) {
           links.status = response.status;
           links.statusText = response.statusText;
           resolve(links);

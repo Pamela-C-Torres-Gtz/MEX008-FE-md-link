@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 const mdLinks = require('./md-links.js');
-import {totalLinks, uniqueLinks, brokenLinks} from './status.js';
+import {totalLinks, uniqueLinks, brokenLinks} from '..status.js';
 import {mdLinks} from './md-links.js';
 
 const path = process.argv[2];
 const options = process.argv[3];
 const status = process.argv[4];
 
-if (options === '--validate' && status === '--stats') {
+if (options === '--validate' && status === '--stats' || status === '--stats' && options === '--validate') {
   mdLinks(path, { validate: true })
     .then(result => {
       console.log(`Total: ${totalLinks(result)}`);

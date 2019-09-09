@@ -1,3 +1,4 @@
 {
-    "presets":["@babel/preset-env"] /*con esto ya tenemos configurado todas nuestras caracteristicas de ES6*/
+    "presets":["@babel/preset-env"], /*con esto ya tenemos configurado todas nuestras caracteristicas de ES6*/
+    "plugins": ["@babel/plugin-transform-modules-commonjs"]
 }

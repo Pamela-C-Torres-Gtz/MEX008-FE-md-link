@@ -1,8 +1,8 @@
 {
   "name": "md-links",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "md-Links",
-  "main": "index.js",
+  "main": "lib/util/md-links.js",
   "keywords": [
     "node",
     "npm",
@@ -13,14 +13,15 @@
   "author": "Pamlea Cinthya Torres Gutierrez <pamelatgtz@gmail.com>",
   "license": "MIT",
   "bin": {
-    "md-links": "lib/cli.js"
+    "md-links": "lib/util/cli.js"
   },
   "bugs": {
     "url": "https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link.git"
   },
   "scripts": {
     "test": "jest --coverage",
-    "build": "babel src -d "
+    "build": "babel src -d lib",
+    "eslint": "eslint --ext .js src/ __test__/"
   },
   "repository": {
     "type": "git",
@@ -29,15 +30,19 @@
   "homepage": "https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link#readme",
   "devDependencies": {
     "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
     "@babel/plugin-transform-modules-commonjs": "^7.5.0",
     "@babel/plugin-transform-regenerator": "^7.4.5",
     "@babel/preset-env": "^7.5.5",
     "babel-jest": "^24.9.0",
+    "eslint": "^6.3.0",
+    "eslint-plugin-jest": "^22.17.0",
     "jest": "^24.9.0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
+    "chalk": "^2.4.2",
     "marked": "^0.7.0",
     "node-fetch": "^2.6.0"
   }

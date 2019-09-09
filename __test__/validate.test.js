@@ -7,7 +7,7 @@ export const linksStatusArray = [
     text: 'Este link es de prueba',
     file:
       `${process.cwd()}//archivos-mdlinks//prueba.md`,
-    status: 200,
+    status: 150,
     statusText: 'OK'
   },
   {
@@ -48,5 +48,5 @@ describe('validateLink', () => {
     return validateLink(linkArray).then(linkArray => {
       expect(linkArray).toEqual(linksStatusArray);
     });
-  })
+  });
 });

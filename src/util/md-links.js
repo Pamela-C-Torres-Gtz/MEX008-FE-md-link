@@ -1,6 +1,6 @@
-import {comparePath, convertPathFromRelativeToAbsolute, readFile} from './path.js';
-import {extractLinks, filterMdFiles} from './extrac.js';
-import {validateLink} from './validate.js';
+import { comparePath, convertPathFromRelativeToAbsolute, readFile } from '../path.js';
+import { extractLinks, filterMdFiles } from '..extrac.js';
+import { validateLink } from '..validate.js';
 
 export const mdLinks = (path, options) => {
   let pathAbsolute;
