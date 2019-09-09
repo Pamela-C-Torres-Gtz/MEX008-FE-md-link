@@ -15,9 +15,6 @@
   "bin": {
     "md-links": "lib/util/cli.js"
   },
-  "bugs": {
-    "url": "https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link.git"
-  },
   "scripts": {
     "test": "jest --coverage",
     "build": "babel src -d lib",
@@ -27,7 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link.git"
   },
-  "homepage": "https://github.com/Pamela-C-Torres-Gtz/MEX008-FE-md-link#readme",
+  
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.6.0",

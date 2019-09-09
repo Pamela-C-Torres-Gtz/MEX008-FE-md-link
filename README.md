@@ -3,7 +3,8 @@
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
-* [2. Algoritmo](#2-algoritmo)
+* [2. Instalación](#2-instalación)
+* [3. Algoritmo](#3-algoritmo)
 * [3. Board del Backlog](#3-board-del-backlog)
 
 ***
@@ -12,7 +13,12 @@
 
 Esta librería `md-links` es una herramienta creada en Node.js que lee y analiza archivos con extensión de formato `.md` (Markdown), con el objetivo de verificar los links contengan y reportar sus estadísticas de validación.
 
-## 2. Algoritmo
+## 2. Instalación
+
+1. Abra su consola git y en ella introduzca el siguiente comando:
+
+
+## 3. Algoritmo
 
 El siguiente diagrama se creo utilizando la herramienta web de Lucidchart, de esta forma grafica se muestra la lógica de la librería, tratando de dar una idea estructurada de la misma.
 
